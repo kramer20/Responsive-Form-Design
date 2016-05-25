@@ -1,0 +1,100 @@
+input, textarea, select {
+	display:block;
+	margin-bottom: 20px;
+	border-style: solid;
+	font-family: 'Asap', sans-serif;
+}
+
+body {
+	background-color: #5BA3D6;
+	color: white;
+}
+
+.column {
+	width:30%;
+	display:inline-block;
+	text-align: left;
+	vertical-align: top;
+	padding: 20px 10px 10px 20px;
+	box-sizing: border-box;
+	margin-left:20px;
+}
+
+@media screen and (max-width: 990px) {
+	.column{
+		width:100%;
+	}
+}
+
+input {
+	color: white;
+	background-color: #5BA3D6;
+	border-color: white;
+	width:100%;
+	height:20px;
+	font-size:13px
+}
+
+textarea {
+	background-color: #5BA3D6;
+	border-color: white;
+	width:100%;
+	height: 150px;
+	color:white;
+	border-width:2px
+}
+
+select {
+	width:100%;
+	background-color: #5BA3D6;
+	color:white;
+}
+
+label {
+	font-size: 10px;
+	font-family: 'Asap', sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2A6A98;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #2A6A98;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #2A6A98;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #2A6A98;
+  font-style: italic;
+}
+
+.btn {
+	float: right;
+	color:white;
+	background-color:#5BA3D6;
+	font-family: 'Asap', sans-serif;
+	border-color: white;
+	border-style: solid;
+
+}
+.btn:hover {
+	border-color: #296998;
+
+}
+
+select:hover {
+	border-color: #296998;
+
+}
+
+textarea:hover {
+	border-color: #296998;
+}
+
+input:hover {
+	border-color: #296998;
+}
